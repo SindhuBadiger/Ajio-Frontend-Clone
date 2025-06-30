@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpPage</title>
+    <style>
+        body{
+            background-image: url(./images/signup.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        
+        }
+        .main{
+        height: 500px;
+        width: 400px;
+        background-color:black;
+        opacity: 0.5;
+        margin-top: -15px;
+        color:white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    </style>
+
+</head>
+<body> <br>
+    <center>
+    <div class="main" >
+      
+            <h1>Sign Up</h1>
+    <form method="get">
+        <label for="hi">First Name</label>  &nbsp;&nbsp;
+        <input id="hi"  type="text" name="fname" placeholder="Enter your Name"> <br> <br>
+        <label for="hey">Last Name</label>&nbsp;&nbsp;&nbsp;
+        <input  id="hey" type="text"  name="lname" placeholder="Enter your LastName"> <br><br>
+        <label for="mail">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="mail" name="mail" required placeholder="Enter your Email"> <br> <br>
+        <label for="ph">Mobile No</label>&nbsp;&nbsp;&nbsp;
+        <select name="cc">
+            <option value="91">+91</option>
+            <option value="464">+464</option>
+            <option value="01">+01</option>
+        </select>
+        <input type="tel" maxlength="10" minlength="10" id="ph" name="num" placeholder="numbers only" required> <br> <br>
+        
+        <label for="gender">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="gender" name="gen" value="male">Male
+        <input type="radio"id="gender"name="gen"value="female">Female
+        <input type="radio"id="gender"name="gen"value="others">Others
+        <br><br>
+
+ <label for="ag">Age</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="ag" placeholder="Enter your Age"> <br> <br>
+        <label for="ct">State & City</label>
+        <input type="text" id="ct" placeholder="Enter your State, City"> <br> <br>
+        <label for="cn">Country</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="cn" placeholder="Enter your Country"> <br><br>
+        <label for="pw">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" id="pw" required placeholder="Enter your Password here"> <br> <br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp; Alreay a member? <b>Login</b> <br><br>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button style="background-color: rgb(12, 80, 60); color:white;height: 30PX;width: 100PX; border-radius: 30px;" >SIGNUP</button>
+
+    </div> 
+</center>
+
+
+</body>
+</html>
